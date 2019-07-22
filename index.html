@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Magali</title>
   <link rel="shortcut icon" type="image/x-icon" href="assets/4772icon-png.ico">
-  <link href="https://fonts.googleapis.com/css?family=Niramit|Pacifico" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Niramit|Pacifico" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 
   <header>
@@ -15,9 +17,18 @@
       <div class="nav-items">
         <img class="logo-magalu" src="assets/magali-logo.png" />
         <ul class="links-header">
-          <li class="links-header-item"><a class="anchor" href="#">produtos</a></li>
-          <li class="links-header-item"><a class="anchor" href="#">contato</a></li>
-          <li class="links-header-item"><a class="anchor" href="#">sobre</a></li>
+          <div class="tooltip">
+            <li class="links-header-item"><a class="anchor" href="#">produtos</a></li>
+            <span class="tooltiptext">Em construção</span>
+          </div>
+          <div class="tooltip">
+            <li class="links-header-item"><a class="anchor" href="#">contato</a></li>
+            <span class="tooltiptext">Em construção</span>
+          </div>
+          <div class="tooltip">
+            <li class="links-header-item"><a class="anchor" href="#">sobre</a></li>
+            <span class="tooltiptext">Em construção</span>
+          </div>
         </ul>
       </div>
     </nav>
@@ -33,7 +44,8 @@
       <form id="form-add-product" class="form-add-product">
         <input value="" id="product-name" class="product-input-style" type="text" placeholder="nome do produto">
         <input value="" id="product-price" class="product-input-style" type="number" placeholder="preço do produto">
-        <input value="" id="product-img" class="product-input-style" type="url" name="" placeholder="link com foto do produto">
+        <input value="" id="product-img" class="product-input-style" type="url" name=""
+          placeholder="link com foto do produto">
         <input id="btn-submit" class="btn-submit-style" type="submit" value="incluir">
       </form>
     </section>
@@ -41,13 +53,23 @@
 
   <footer class="footer">
     <ul class="links-footer">
-      <li><a class="anchor" href="#">mapa do site</a></li>
-      <li><a class="anchor" href="#">contato</a></li>
-      <li><a class="anchor" href="#">franquias</a></li>
+      <div class="tooltip">
+        <li><a class="anchor" href="#">mapa do site</a></li>
+        <span class="tooltiptext">Em construção</span>
+      </div>
+      <div class="tooltip">
+        <li><a class="anchor" href="#">contato</a></li>
+        <span class="tooltiptext">Em construção</span>
+      </div>
+      <div class="tooltip">
+        <li><a class="anchor" href="#">franquias</a></li>
+        <span class="tooltiptext">Em construção</span>
+      </div>
     </ul>
   </footer>
 
   <script type="text/javascript" src="data.json"></script>
   <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
