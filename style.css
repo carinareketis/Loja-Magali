@@ -3,8 +3,7 @@ body {
   width: 100vw;
   font-family: 'Niramit', sans-serif;
   font-size: 1.2rem;
-  background-color: #c5f7d6;
-
+  background-color: #e1edf5;
 }
 
 h3, p {
@@ -21,16 +20,16 @@ h3, p {
 }
 
 .nav-items {
-  background-color: #62e5a6;
-  padding: 15px;
+  background-color: #0086FF;
+  padding: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.logo-cat {
-  width: 7%;
-  height: 7%;
+.logo-magalu {
+  width: 18%;
+  height: 10%;
 }
 
 .store-heading {
@@ -64,12 +63,12 @@ h3, p {
   width: 25%;
   margin: 20px;
   padding-top: 20px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-
 
 .product-img {
   width: 70%;
@@ -92,7 +91,7 @@ h3, p {
 }
 
 .footer {
-  background-color: #37383d;
+  background-color: #0086FF;
   display: flex;
   width:100%;
 }
@@ -111,6 +110,7 @@ h3, p {
 .add-product {
   width: 80%;
   margin: 0 auto 20px auto;
+  border-radius: 20px;
   background-color: white;
   padding: 30px;
   display: flex;
@@ -127,7 +127,18 @@ h3, p {
   display: flex;
   justify-content: space-evenly;
 }
+
 .product-input-style {
-  border: 1px solid green;
+  border-radius: 5px;
+  border: 1px solid rgb(13, 98, 226);
   width: 25%;
+}
+
+.btn-submit-style {
+  width: 5%;
+  height: 5%;
+  border: none;
+  border-radius: 5px; 
+  background-color: #0086FF;
+  color: #fff;
 }

@@ -1,5 +1,4 @@
 window.onload = function() {
-  // alert("carregou");
   showProducts();
 
 };
@@ -50,7 +49,6 @@ btnSubmit.addEventListener("click", function(e){
   showProducts();
   resetForm(document.getElementById("form-add-product"));
   e.preventDefault();
-
 });
 
 function resetForm(form){
